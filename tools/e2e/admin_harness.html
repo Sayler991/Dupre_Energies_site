@@ -1,0 +1,51 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tableau de bord — Dupre Energies</title>
+<link rel="stylesheet" href="/site/admin/admin.css"><link rel="stylesheet" href="/site/admin/alerts.css"></head><body>
+<div id="app" hidden></div>
+<div id="login" hidden><form class="login-card" id="login-form"><input id="login-email"><input id="login-pw"><p id="login-err" hidden></p><button>ok</button></form></div>
+<div id="boot" class="boot">Chargement…</div><div id="toasts" aria-live="polite"></div>
+<script>
+/* Harnais : faux client Supabase alimenté par fixture.json (données réelles du schéma dupre au moment du test).
+   Permet de tester l'interface patron sans mot de passe. Les écritures sont journalisées dans window.LOG. */
+window.LOG = []; window.rtHandler = null; window.pollRows = [];
+var FX = null;
+function builder(table) {
+  var st = { table: table, filters: [], op: 'select', payload: null, single: false };
+  var b = {
+    select: function () { return b; }, order: function () { return b; }, limit: function () { return b; },
+    eq: function (k, v) { st.filters.push(function (r) { return r[k] == v; }); return b; },
+    in: function (k, v) { st.filters.push(function (r) { return v.indexOf(r[k]) >= 0; }); return b; },
+    gt: function (k, v) { st.filters.push(function (r) { return r[k] > v; }); return b; },
+    gte: function (k, v) { st.filters.push(function (r) { return r[k] >= v; }); return b; },
+    not: function () { return b; },
+    update: function (p) { st.op = 'update'; st.payload = p; return b; },
+    single: function () { st.single = true; return b; }, maybeSingle: function () { st.single = true; return b; },
+    then: function (f, rj) {
+      var rows;
+      if (table === 'owners') rows = [{ user_id: 'u-owner' }];
+      else if (table === 'requests' && window.pollRows.length && st.filters.length === 1) rows = window.pollRows.splice(0);
+      else rows = (FX[table] || []).filter(function (r) { return st.filters.every(function (fn) { return fn(r); }); });
+      if (st.op === 'update') { LOG.push('update:' + table + ':' + JSON.stringify(st.payload).slice(0, 80)); rows.forEach(function (r) { Object.assign(r, st.payload); }); }
+      var data = st.single ? (rows[0] || null) : rows;
+      return Promise.resolve({ data: data, error: null }).then(f, rj);
+    }
+  };
+  return b;
+}
+var session = { access_token: 'x', user: { id: 'u-owner', email: 'benduy0@gmail.com' } };
+var MOCK = {
+  from: builder, schema: function () { return { from: builder }; },
+  storage: { from: function () { return { upload: function (n) { LOG.push('upload:' + n); return Promise.resolve({ error: null }); }, getPublicUrl: function (n) { return { data: { publicUrl: '/site/assets/img/wrench-800.webp' } }; } }; } },
+  channel: function (n) { LOG.push('channel:' + n); var c = { on: function (ev, f, h) { LOG.push('on:' + JSON.stringify(f)); window.rtHandler = h; return c; }, subscribe: function (cb) { cb('SUBSCRIBED'); return c; } }; return c; },
+  removeChannel: function () {}, realtime: { setAuth: function () { LOG.push('setAuth'); } },
+  auth: { onAuthStateChange: function (cb) { setTimeout(function () { cb('SIGNED_IN', session); }, 30); }, signOut: function () {}, signInWithPassword: function () {} }
+};
+window.supabase = { createClient: function () { return MOCK; } };
+window.DUPRE_CONFIG = { SUPABASE_URL: 'mock', SUPABASE_ANON_KEY: 'mock', SCHEMA: 'dupre' };
+window.__origSetInterval = window.setInterval; window.setInterval = function (f, ms) { if (ms === 30000) { window.__poll = f; LOG.push('poll-30s'); } return window.__origSetInterval(f, ms); };
+var x = new XMLHttpRequest(); x.open('GET', 'fixture.json', false); x.send(); FX = JSON.parse(x.responseText);
+FX.site_content_history = FX.site_content_history || [];
+</script>
+<script src="/site/admin/admin.js"></script>
+<script src="/site/admin/alerts.js"></script>
+</body></html>

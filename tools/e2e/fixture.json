@@ -1,0 +1,801 @@
+{
+  "requests": [
+    {
+      "id": 17,
+      "kind": "message",
+      "status": "nouveau",
+      "customer_id": "26b2ff91-0329-40cf-b7a3-c4c78fea38c4",
+      "name": "TEST E2E abus",
+      "phone": "06 00 00 00 21",
+      "email": null,
+      "address": null,
+      "service": null,
+      "day": null,
+      "slot": null,
+      "message": "rafale test",
+      "photo_url": null,
+      "hp": null,
+      "created_at": "2026-10-15T01:29:09.413729+00:00",
+      "updated_at": "2026-10-15T01:29:09.413729+00:00"
+    },
+    {
+      "id": 16,
+      "kind": "message",
+      "status": "nouveau",
+      "customer_id": "26b2ff91-0329-40cf-b7a3-c4c78fea38c4",
+      "name": "TEST E2E abus",
+      "phone": "06 00 00 00 21",
+      "email": null,
+      "address": null,
+      "service": null,
+      "day": null,
+      "slot": null,
+      "message": "rafale test",
+      "photo_url": null,
+      "hp": null,
+      "created_at": "2026-10-15T01:29:08.9931+00:00",
+      "updated_at": "2026-10-15T01:29:08.9931+00:00"
+    },
+    {
+      "id": 15,
+      "kind": "message",
+      "status": "nouveau",
+      "customer_id": "26b2ff91-0329-40cf-b7a3-c4c78fea38c4",
+      "name": "TEST E2E abus",
+      "phone": "06 00 00 00 21",
+      "email": null,
+      "address": null,
+      "service": null,
+      "day": null,
+      "slot": null,
+      "message": "rafale test",
+      "photo_url": null,
+      "hp": null,
+      "created_at": "2026-10-15T01:29:08.546585+00:00",
+      "updated_at": "2026-10-15T01:29:08.546585+00:00"
+    },
+    {
+      "id": 11,
+      "kind": "message",
+      "status": "nouveau",
+      "customer_id": "5d79b810-736e-4c84-84bc-c836c2045b0f",
+      "name": "TEST E2E Dupre message",
+      "phone": "06 00 00 00 10",
+      "email": "test@example.com",
+      "address": null,
+      "service": null,
+      "day": null,
+      "slot": null,
+      "message": "Message de test automatique — à supprimer",
+      "photo_url": null,
+      "hp": "",
+      "created_at": "2026-10-15T01:28:10.947096+00:00",
+      "updated_at": "2026-10-15T01:28:10.947096+00:00"
+    },
+    {
+      "id": 10,
+      "kind": "devis",
+      "status": "nouveau",
+      "customer_id": "bd27a5c8-93ba-427a-bfb2-7cb318f6a44b",
+      "name": "TEST E2E Dupre devis",
+      "phone": "06 00 00 00 09",
+      "email": null,
+      "address": null,
+      "service": "Remplacement de chauffe-eau",
+      "day": null,
+      "slot": null,
+      "message": "Devis de test automatique — à supprimer",
+      "photo_url": "https://rvreusugrtiubqtafgbk.supabase.co/storage/v1/object/public/images/up-dupre_devis-razdceyg-1792027689596.jpg",
+      "hp": "",
+      "created_at": "2026-10-15T01:28:10.365266+00:00",
+      "updated_at": "2026-10-15T01:28:10.365266+00:00"
+    },
+    {
+      "id": 9,
+      "kind": "rdv",
+      "status": "nouveau",
+      "customer_id": "d2f97934-d7cd-4f4a-89c3-3d479efbedcd",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 08",
+      "email": null,
+      "address": "1 rue de Test, 33700 Mérignac",
+      "service": null,
+      "day": "2026-10-19",
+      "slot": "10h-12h",
+      "message": "Demande de test automatique — à supprimer",
+      "photo_url": null,
+      "hp": "",
+      "created_at": "2026-10-15T01:28:08.830945+00:00",
+      "updated_at": "2026-10-15T01:28:08.830945+00:00"
+    },
+    {
+      "id": 8,
+      "kind": "message",
+      "status": "nouveau",
+      "customer_id": "b718e59d-0e35-47fa-9f47-5fe8d6eb43b4",
+      "name": "TEST E2E Dupre message",
+      "phone": "06 00 00 00 07",
+      "email": "test@example.com",
+      "address": null,
+      "service": null,
+      "day": null,
+      "slot": null,
+      "message": "Message de test automatique — à supprimer",
+      "photo_url": null,
+      "hp": "",
+      "created_at": "2026-10-15T01:27:35.065752+00:00",
+      "updated_at": "2026-10-15T01:27:35.065752+00:00"
+    },
+    {
+      "id": 7,
+      "kind": "rdv",
+      "status": "nouveau",
+      "customer_id": "28f62064-2543-4068-a976-e4eeaf384888",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 05",
+      "email": null,
+      "address": "1 rue de Test, 33700 Mérignac",
+      "service": null,
+      "day": "2026-10-19",
+      "slot": "10h-12h",
+      "message": "Demande de test automatique — à supprimer",
+      "photo_url": null,
+      "hp": "",
+      "created_at": "2026-10-15T01:27:34.28657+00:00",
+      "updated_at": "2026-10-15T01:27:34.28657+00:00"
+    },
+    {
+      "id": 6,
+      "kind": "message",
+      "status": "nouveau",
+      "customer_id": "61046468-2609-43c5-a94e-393b7f1701b1",
+      "name": "TEST E2E Dupre message",
+      "phone": "06 00 00 00 03",
+      "email": "test@example.com",
+      "address": null,
+      "service": null,
+      "day": null,
+      "slot": null,
+      "message": "Message de test automatique — à supprimer",
+      "photo_url": null,
+      "hp": "",
+      "created_at": "2026-10-15T01:26:58.526613+00:00",
+      "updated_at": "2026-10-15T01:26:58.526613+00:00"
+    },
+    {
+      "id": 5,
+      "kind": "devis",
+      "status": "nouveau",
+      "customer_id": "3075cfde-6014-4a98-8d0d-3a5b23cbbdb0",
+      "name": "TEST E2E Dupre devis",
+      "phone": "06 00 00 00 02",
+      "email": null,
+      "address": null,
+      "service": "Remplacement de chauffe-eau",
+      "day": null,
+      "slot": null,
+      "message": "Devis de test automatique — à supprimer",
+      "photo_url": "https://rvreusugrtiubqtafgbk.supabase.co/storage/v1/object/public/images/up-dupre_devis-bsl315ux-1792027617415.jpg",
+      "hp": "",
+      "created_at": "2026-10-15T01:26:58.152491+00:00",
+      "updated_at": "2026-10-15T01:26:58.152491+00:00"
+    },
+    {
+      "id": 4,
+      "kind": "rdv",
+      "status": "nouveau",
+      "customer_id": "6f8432d1-0363-4a82-ae6e-82f6e51372e7",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 04",
+      "email": null,
+      "address": "1 rue de Test, 33700 Mérignac",
+      "service": null,
+      "day": "2026-10-19",
+      "slot": "10h-12h",
+      "message": "Demande de test automatique — à supprimer",
+      "photo_url": null,
+      "hp": "",
+      "created_at": "2026-10-15T01:26:57.036003+00:00",
+      "updated_at": "2026-10-15T01:26:57.036003+00:00"
+    },
+    {
+      "id": 3,
+      "kind": "rdv",
+      "status": "confirmé",
+      "customer_id": "7179ca96-aca6-4906-b571-10932b3e89f4",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 01",
+      "email": null,
+      "address": "1 rue de Test, 33700 Mérignac",
+      "service": null,
+      "day": "2026-10-19",
+      "slot": "10h-12h",
+      "message": "Demande de test automatique — à supprimer",
+      "photo_url": null,
+      "hp": "",
+      "created_at": "2026-10-15T01:26:24.583699+00:00",
+      "updated_at": "2026-10-15T01:28:50.566598+00:00"
+    }
+  ],
+  "customers": [
+    {
+      "id": "7179ca96-aca6-4906-b571-10932b3e89f4",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 01",
+      "address": "1 rue de Test, 33700 Mérignac",
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:26:24.583699+00:00",
+      "requests": [
+        {
+          "kind": "rdv",
+          "status": "confirmé",
+          "created_at": "2026-10-15T01:26:24.583699+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6f8432d1-0363-4a82-ae6e-82f6e51372e7",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 04",
+      "address": "1 rue de Test, 33700 Mérignac",
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:26:57.036003+00:00",
+      "requests": [
+        {
+          "kind": "rdv",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:26:57.036003+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3075cfde-6014-4a98-8d0d-3a5b23cbbdb0",
+      "name": "TEST E2E Dupre devis",
+      "phone": "06 00 00 00 02",
+      "address": null,
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:26:58.152491+00:00",
+      "requests": [
+        {
+          "kind": "devis",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:26:58.152491+00:00"
+        }
+      ]
+    },
+    {
+      "id": "61046468-2609-43c5-a94e-393b7f1701b1",
+      "name": "TEST E2E Dupre message",
+      "phone": "06 00 00 00 03",
+      "address": null,
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:26:58.526613+00:00",
+      "requests": [
+        {
+          "kind": "message",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:26:58.526613+00:00"
+        }
+      ]
+    },
+    {
+      "id": "28f62064-2543-4068-a976-e4eeaf384888",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 05",
+      "address": "1 rue de Test, 33700 Mérignac",
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:27:34.28657+00:00",
+      "requests": [
+        {
+          "kind": "rdv",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:27:34.28657+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b718e59d-0e35-47fa-9f47-5fe8d6eb43b4",
+      "name": "TEST E2E Dupre message",
+      "phone": "06 00 00 00 07",
+      "address": null,
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:27:35.065752+00:00",
+      "requests": [
+        {
+          "kind": "message",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:27:35.065752+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d2f97934-d7cd-4f4a-89c3-3d479efbedcd",
+      "name": "TEST E2E Dupre rdv",
+      "phone": "06 00 00 00 08",
+      "address": "1 rue de Test, 33700 Mérignac",
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:28:08.830945+00:00",
+      "requests": [
+        {
+          "kind": "rdv",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:28:08.830945+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bd27a5c8-93ba-427a-bfb2-7cb318f6a44b",
+      "name": "TEST E2E Dupre devis",
+      "phone": "06 00 00 00 09",
+      "address": null,
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:28:10.365266+00:00",
+      "requests": [
+        {
+          "kind": "devis",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:28:10.365266+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5d79b810-736e-4c84-84bc-c836c2045b0f",
+      "name": "TEST E2E Dupre message",
+      "phone": "06 00 00 00 10",
+      "address": null,
+      "notes": "Note test",
+      "created_at": "2026-10-15T01:28:10.947096+00:00",
+      "requests": [
+        {
+          "kind": "message",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:28:10.947096+00:00"
+        }
+      ]
+    },
+    {
+      "id": "26b2ff91-0329-40cf-b7a3-c4c78fea38c4",
+      "name": "TEST E2E abus",
+      "phone": "06 00 00 00 21",
+      "address": null,
+      "notes": null,
+      "created_at": "2026-10-15T01:29:08.546585+00:00",
+      "requests": [
+        {
+          "kind": "message",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:29:08.546585+00:00"
+        },
+        {
+          "kind": "message",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:29:08.9931+00:00"
+        },
+        {
+          "kind": "message",
+          "status": "nouveau",
+          "created_at": "2026-10-15T01:29:09.413729+00:00"
+        }
+      ]
+    }
+  ],
+  "requests_daily": [
+    {
+      "day": "2026-10-15",
+      "total": 12,
+      "rdv": 4,
+      "devis": 2,
+      "messages": 6,
+      "done": 0,
+      "cancelled": 0
+    }
+  ],
+  "site_content": [
+    {
+      "id": 1,
+      "data": {
+        "hero": {
+          "title": "Votre plombier chauffagiste *de confiance* à Mérignac",
+          "kicker": "Plombier chauffagiste à Mérignac",
+          "tagline": "Dépannage, chauffe-eau, chaudières et sanitaires : un artisan RGE et Professionnel du Gaz, noté 5/5 sur 61 avis PagesJaunes."
+        },
+        "photos": {
+          "hero": {
+            "alt": "Salle de bains moderne avec douche à l’italienne",
+            "src": "",
+            "label": "Photo principale"
+          },
+          "outils": {
+            "alt": "Clé à molette de plombier",
+            "src": "",
+            "label": "Photo dépannage"
+          },
+          "chauffage": {
+            "alt": "Radiateur blanc dans un intérieur",
+            "src": "",
+            "label": "Photo chauffage"
+          }
+        },
+        "slogan": "Le travail bien fait, chez vous, près de chez vous.",
+        "booking": {
+          "note": "Choisissez un créneau : nous vous rappelons pour confirmer. Urgence ? Appelez directement.",
+          "open": true
+        },
+        "version": 1,
+        "business": {
+          "name": "Dupre Energies",
+          "open": true,
+          "zone": "Mérignac et métropole bordelaise",
+          "hours": "Horaires : nous appeler pour connaître nos disponibilités",
+          "phone": "06 12 59 18 18",
+          "address": "Lot 8, 8 rue Vert Castel, 33700 Mérignac",
+          "phone_intl": "+33612591818",
+          "closed_text": "Nous sommes momentanément indisponibles. Laissez un message : nous vous rappelons dès que possible."
+        },
+        "services": [
+          {
+            "desc": "Fuite, panne d’eau chaude, chaudière à l’arrêt : appelez-nous, nous intervenons au plus vite.",
+            "icon": "alert",
+            "title": "Dépannage urgent"
+          },
+          {
+            "desc": "Réparation de fuites sur canalisations, robinetterie, WC et raccords.",
+            "icon": "drop",
+            "title": "Fuite d’eau"
+          },
+          {
+            "desc": "Évier, lavabo, douche, WC ou canalisation bouchés : remise en service propre.",
+            "icon": "pipe",
+            "title": "Débouchage"
+          },
+          {
+            "desc": "Chauffe-eau électrique ou thermodynamique : conseil, fourniture et pose.",
+            "icon": "tank",
+            "title": "Remplacement de chauffe-eau"
+          },
+          {
+            "desc": "Douche, WC, lavabo, robinetterie : installation et rénovation soignées.",
+            "icon": "bath",
+            "title": "Installation sanitaire"
+          },
+          {
+            "desc": "Diagnostic de l’origine d’une fuite d’eau, et contrôle en cas de suspicion de fuite de gaz.",
+            "icon": "search",
+            "title": "Recherche de fuite"
+          },
+          {
+            "desc": "Installation et entretien : chaudières gaz à condensation, micro-cogénération, fioul.",
+            "icon": "flame",
+            "title": "Chaudières & chauffage"
+          }
+        ]
+      }
+    }
+  ],
+  "site_content_history": [
+    {
+      "id": 4,
+      "saved_at": "2026-10-15T01:29:11.744866+00:00",
+      "data": {
+        "hero": {
+          "title": "Votre plombier chauffagiste *de confiance* à Mérignac",
+          "kicker": "Plombier chauffagiste à Mérignac",
+          "tagline": "Dépannage, chauffe-eau, chaudières et sanitaires : un artisan RGE et Professionnel du Gaz, noté 5/5 sur 61 avis PagesJaunes."
+        },
+        "photos": {
+          "hero": {
+            "alt": "Salle de bains moderne avec douche à l’italienne",
+            "src": "",
+            "label": "Photo principale"
+          },
+          "outils": {
+            "alt": "Clé à molette de plombier",
+            "src": "",
+            "label": "Photo dépannage"
+          },
+          "chauffage": {
+            "alt": "Radiateur blanc dans un intérieur",
+            "src": "",
+            "label": "Photo chauffage"
+          }
+        },
+        "slogan": "Le travail bien fait, chez vous, près de chez vous.",
+        "booking": {
+          "note": "Choisissez un créneau : nous vous rappelons pour confirmer. Urgence ? Appelez directement.",
+          "open": false
+        },
+        "version": 1,
+        "business": {
+          "name": "Dupre Energies",
+          "open": true,
+          "zone": "Mérignac et métropole bordelaise",
+          "hours": "Horaires : nous appeler pour connaître nos disponibilités",
+          "phone": "06 12 59 18 18",
+          "address": "Lot 8, 8 rue Vert Castel, 33700 Mérignac",
+          "phone_intl": "+33612591818",
+          "closed_text": "Nous sommes momentanément indisponibles. Laissez un message : nous vous rappelons dès que possible."
+        },
+        "services": [
+          {
+            "desc": "Fuite, panne d’eau chaude, chaudière à l’arrêt : appelez-nous, nous intervenons au plus vite.",
+            "icon": "alert",
+            "title": "Dépannage urgent"
+          },
+          {
+            "desc": "Réparation de fuites sur canalisations, robinetterie, WC et raccords.",
+            "icon": "drop",
+            "title": "Fuite d’eau"
+          },
+          {
+            "desc": "Évier, lavabo, douche, WC ou canalisation bouchés : remise en service propre.",
+            "icon": "pipe",
+            "title": "Débouchage"
+          },
+          {
+            "desc": "Chauffe-eau électrique ou thermodynamique : conseil, fourniture et pose.",
+            "icon": "tank",
+            "title": "Remplacement de chauffe-eau"
+          },
+          {
+            "desc": "Douche, WC, lavabo, robinetterie : installation et rénovation soignées.",
+            "icon": "bath",
+            "title": "Installation sanitaire"
+          },
+          {
+            "desc": "Diagnostic de l’origine d’une fuite d’eau, et contrôle en cas de suspicion de fuite de gaz.",
+            "icon": "search",
+            "title": "Recherche de fuite"
+          },
+          {
+            "desc": "Installation et entretien : chaudières gaz à condensation, micro-cogénération, fioul.",
+            "icon": "flame",
+            "title": "Chaudières & chauffage"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "saved_at": "2026-10-15T01:29:10.650367+00:00",
+      "data": {
+        "hero": {
+          "title": "Votre plombier chauffagiste *de confiance* à Mérignac",
+          "kicker": "Plombier chauffagiste à Mérignac",
+          "tagline": "Dépannage, chauffe-eau, chaudières et sanitaires : un artisan RGE et Professionnel du Gaz, noté 5/5 sur 61 avis PagesJaunes."
+        },
+        "photos": {
+          "hero": {
+            "alt": "Salle de bains moderne avec douche à l’italienne",
+            "src": "",
+            "label": "Photo principale"
+          },
+          "outils": {
+            "alt": "Clé à molette de plombier",
+            "src": "",
+            "label": "Photo dépannage"
+          },
+          "chauffage": {
+            "alt": "Radiateur blanc dans un intérieur",
+            "src": "",
+            "label": "Photo chauffage"
+          }
+        },
+        "slogan": "Le travail bien fait, chez vous, près de chez vous.",
+        "booking": {
+          "note": "Choisissez un créneau : nous vous rappelons pour confirmer. Urgence ? Appelez directement.",
+          "open": true
+        },
+        "version": 1,
+        "business": {
+          "name": "Dupre Energies",
+          "open": true,
+          "zone": "Mérignac et métropole bordelaise",
+          "hours": "Horaires : nous appeler pour connaître nos disponibilités",
+          "phone": "06 12 59 18 18",
+          "address": "Lot 8, 8 rue Vert Castel, 33700 Mérignac",
+          "phone_intl": "+33612591818",
+          "closed_text": "Nous sommes momentanément indisponibles. Laissez un message : nous vous rappelons dès que possible."
+        },
+        "services": [
+          {
+            "desc": "Fuite, panne d’eau chaude, chaudière à l’arrêt : appelez-nous, nous intervenons au plus vite.",
+            "icon": "alert",
+            "title": "Dépannage urgent"
+          },
+          {
+            "desc": "Réparation de fuites sur canalisations, robinetterie, WC et raccords.",
+            "icon": "drop",
+            "title": "Fuite d’eau"
+          },
+          {
+            "desc": "Évier, lavabo, douche, WC ou canalisation bouchés : remise en service propre.",
+            "icon": "pipe",
+            "title": "Débouchage"
+          },
+          {
+            "desc": "Chauffe-eau électrique ou thermodynamique : conseil, fourniture et pose.",
+            "icon": "tank",
+            "title": "Remplacement de chauffe-eau"
+          },
+          {
+            "desc": "Douche, WC, lavabo, robinetterie : installation et rénovation soignées.",
+            "icon": "bath",
+            "title": "Installation sanitaire"
+          },
+          {
+            "desc": "Diagnostic de l’origine d’une fuite d’eau, et contrôle en cas de suspicion de fuite de gaz.",
+            "icon": "search",
+            "title": "Recherche de fuite"
+          },
+          {
+            "desc": "Installation et entretien : chaudières gaz à condensation, micro-cogénération, fioul.",
+            "icon": "flame",
+            "title": "Chaudières & chauffage"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "saved_at": "2026-10-15T01:28:53.92283+00:00",
+      "data": {
+        "hero": {
+          "title": "Votre plombier chauffagiste *de confiance* à Mérignac",
+          "kicker": "Plombier chauffagiste à Mérignac",
+          "tagline": "Dépannage, chauffe-eau, chaudières et sanitaires : un artisan RGE et Professionnel du Gaz, noté 5/5 sur 61 avis PagesJaunes."
+        },
+        "photos": {
+          "hero": {
+            "alt": "Salle de bains moderne avec douche à l’italienne",
+            "src": "",
+            "label": "Photo principale"
+          },
+          "outils": {
+            "alt": "Clé à molette de plombier",
+            "src": "",
+            "label": "Photo dépannage"
+          },
+          "chauffage": {
+            "alt": "Radiateur blanc dans un intérieur",
+            "src": "",
+            "label": "Photo chauffage"
+          }
+        },
+        "slogan": "SLOGAN TEST",
+        "booking": {
+          "note": "Choisissez un créneau : nous vous rappelons pour confirmer. Urgence ? Appelez directement.",
+          "open": true
+        },
+        "version": 1,
+        "business": {
+          "name": "Dupre Energies",
+          "open": true,
+          "zone": "Mérignac et métropole bordelaise",
+          "hours": "Horaires : nous appeler pour connaître nos disponibilités",
+          "phone": "06 12 59 18 18",
+          "address": "Lot 8, 8 rue Vert Castel, 33700 Mérignac",
+          "phone_intl": "+33612591818",
+          "closed_text": "Nous sommes momentanément indisponibles. Laissez un message : nous vous rappelons dès que possible."
+        },
+        "services": [
+          {
+            "desc": "Fuite, panne d’eau chaude, chaudière à l’arrêt : appelez-nous, nous intervenons au plus vite.",
+            "icon": "alert",
+            "title": "Dépannage urgent"
+          },
+          {
+            "desc": "Réparation de fuites sur canalisations, robinetterie, WC et raccords.",
+            "icon": "drop",
+            "title": "Fuite d’eau"
+          },
+          {
+            "desc": "Évier, lavabo, douche, WC ou canalisation bouchés : remise en service propre.",
+            "icon": "pipe",
+            "title": "Débouchage"
+          },
+          {
+            "desc": "Chauffe-eau électrique ou thermodynamique : conseil, fourniture et pose.",
+            "icon": "tank",
+            "title": "Remplacement de chauffe-eau"
+          },
+          {
+            "desc": "Douche, WC, lavabo, robinetterie : installation et rénovation soignées.",
+            "icon": "bath",
+            "title": "Installation sanitaire"
+          },
+          {
+            "desc": "Diagnostic de l’origine d’une fuite d’eau, et contrôle en cas de suspicion de fuite de gaz.",
+            "icon": "search",
+            "title": "Recherche de fuite"
+          },
+          {
+            "desc": "Installation et entretien : chaudières gaz à condensation, micro-cogénération, fioul.",
+            "icon": "flame",
+            "title": "Chaudières & chauffage"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "saved_at": "2026-10-15T01:28:52.246059+00:00",
+      "data": {
+        "hero": {
+          "title": "Votre plombier chauffagiste *de confiance* à Mérignac",
+          "kicker": "Plombier chauffagiste à Mérignac",
+          "tagline": "Dépannage, chauffe-eau, chaudières et sanitaires : un artisan RGE et Professionnel du Gaz, noté 5/5 sur 61 avis PagesJaunes."
+        },
+        "photos": {
+          "hero": {
+            "alt": "Salle de bains moderne avec douche à l’italienne",
+            "src": "",
+            "label": "Photo principale"
+          },
+          "outils": {
+            "alt": "Clé à molette de plombier",
+            "src": "",
+            "label": "Photo dépannage"
+          },
+          "chauffage": {
+            "alt": "Radiateur blanc dans un intérieur",
+            "src": "",
+            "label": "Photo chauffage"
+          }
+        },
+        "slogan": "Le travail bien fait, chez vous, près de chez vous.",
+        "booking": {
+          "note": "Choisissez un créneau : nous vous rappelons pour confirmer. Urgence ? Appelez directement.",
+          "open": true
+        },
+        "version": 1,
+        "business": {
+          "name": "Dupre Energies",
+          "open": true,
+          "zone": "Mérignac et métropole bordelaise",
+          "hours": "Horaires : nous appeler pour connaître nos disponibilités",
+          "phone": "06 12 59 18 18",
+          "address": "Lot 8, 8 rue Vert Castel, 33700 Mérignac",
+          "phone_intl": "+33612591818",
+          "closed_text": "Nous sommes momentanément indisponibles. Laissez un message : nous vous rappelons dès que possible."
+        },
+        "services": [
+          {
+            "desc": "Fuite, panne d’eau chaude, chaudière à l’arrêt : appelez-nous, nous intervenons au plus vite.",
+            "icon": "alert",
+            "title": "Dépannage urgent"
+          },
+          {
+            "desc": "Réparation de fuites sur canalisations, robinetterie, WC et raccords.",
+            "icon": "drop",
+            "title": "Fuite d’eau"
+          },
+          {
+            "desc": "Évier, lavabo, douche, WC ou canalisation bouchés : remise en service propre.",
+            "icon": "pipe",
+            "title": "Débouchage"
+          },
+          {
+            "desc": "Chauffe-eau électrique ou thermodynamique : conseil, fourniture et pose.",
+            "icon": "tank",
+            "title": "Remplacement de chauffe-eau"
+          },
+          {
+            "desc": "Douche, WC, lavabo, robinetterie : installation et rénovation soignées.",
+            "icon": "bath",
+            "title": "Installation sanitaire"
+          },
+          {
+            "desc": "Diagnostic de l’origine d’une fuite d’eau, et contrôle en cas de suspicion de fuite de gaz.",
+            "icon": "search",
+            "title": "Recherche de fuite"
+          },
+          {
+            "desc": "Installation et entretien : chaudières gaz à condensation, micro-cogénération, fioul.",
+            "icon": "flame",
+            "title": "Chaudières & chauffage"
+          }
+        ]
+      }
+    }
+  ]
+}
